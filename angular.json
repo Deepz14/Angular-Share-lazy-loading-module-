@@ -24,9 +24,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+              
+            
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "task-new"
+    }
+  },
+  "defaultProject": "task-new",
+  "cli": {
+    "analytics": "32ab2e0f-dd9f-43b8-aa1f-d10e22fd4682"
+  }
 }
